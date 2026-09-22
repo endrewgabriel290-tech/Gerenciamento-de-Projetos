@@ -76,10 +76,10 @@
 ## 6. Modelagem e Diagramas
 
 ### Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](docs/diagrama_casos_uso.png)
+![Diagrama de Casos de Uso](diagrama_casos_uso.png)
 
 ### Diagrama de Classes UML
-![Diagrama de Classes](docs/diagrama_classes.png)
+![Diagrama de Classes](diagrama_classes.png)
 
 ---
 
