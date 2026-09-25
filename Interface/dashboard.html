@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Gestão de Projetos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex">
+    <aside class="w-64 bg-slate-800 text-white min-h-screen p-4">
+        <h1 class="text-xl font-bold mb-8 text-blue-400">Projetos Corp</h1>
+        <nav class="space-y-4">
+            <a href="#" class="block p-2 bg-slate-700 rounded">📊 Dashboard</a>
+            <a href="#" class="block p-2 hover:bg-slate-700 rounded">📁 Projetos</a>
+            <a href="#" class="block p-2 hover:bg-slate-700 rounded">👥 Usuários</a>
+            <a href="#" class="block p-2 hover:bg-slate-700 rounded">🏆 Ranking & XP</a>
+        </nav>
+    </aside>
+
+    <main class="flex-1 p-8">
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white p-6 rounded-lg mb-8 shadow-md flex justify-between items-center">
+            <div>
+                <h2 class="text-2xl font-bold">Olá, Usuário!</h2>
+                <p class="text-blue-100">Departamento de TI | Cargo: Desenvolvedor</p>
+            </div>
+            <div class="text-right">
+                <span class="bg-yellow-400 text-slate-900 px-3 py-1 font-bold rounded-full text-sm">Nível 5</span>
+                <p class="text-sm mt-2">XP: 1.250 / 1.500</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="md:col-span-2 bg-white p-6 rounded-lg shadow">
+                <h3 class="text-lg font-bold mb-4">Minhas Atividades Recentes</h3>
+                <ul class="divide-y">
+                    <li class="py-3 flex justify-between items-center">
+                        <div>
+                            <p class="font-semibold">Criar DDL V5 do Banco</p>
+                            <p class="text-sm text-gray-500">Projeto: Reestruturação</p>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-2 py-1 text-xs rounded">+50 XP</span>
+                    </li>
+                    <li class="py-3 flex justify-between items-center">
+                        <div>
+                            <p class="font-semibold">Protótipo de Interface</p>
+                            <p class="text-sm text-gray-500">Projeto: Front-end</p>
+                        </div>
+                        <span class="bg-yellow-100 text-yellow-800 px-2 py-1 text-xs rounded">Pendente (+100 XP)</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h3 class="text-lg font-bold mb-4">🏆 Conquistas Desbloqueadas</h3>
+                <div class="space-y-3">
+                    <div class="p-3 border rounded bg-slate-50 flex items-center space-x-3">
+                        <span class="text-2xl">🥇</span>
+                        <div>
+                            <p class="font-bold text-sm">Mestre dos Prazos</p>
+                            <p class="text-xs text-gray-500">Entregou 5 tarefas antes da data</p>
+                        </div>
+                    </div>
+                    <div class="p-3 border rounded bg-slate-50 flex items-center space-x-3">
+                        <span class="text-2xl">🚀</span>
+                        <div>
+                            <p class="font-bold text-sm">Primeiros Passos</p>
+                            <p class="text-xs text-gray-500">Concluiu a 1ª atividade</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
